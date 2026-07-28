@@ -1,0 +1,10 @@
+.idea/
+*.iml
+target/
+*.class
+*.log
+logs/
+*.pid
+__pycache__/
+.DS_Store
+Thumbs.db

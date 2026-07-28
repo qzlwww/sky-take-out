@@ -1,0 +1,21 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:123456}
+  alioss:
+    access-key-id: ${OSS_ACCESS_KEY_ID:}
+    endpoint: ${OSS_ENDPOINT:oss-cn-chengdu.aliyuncs.com}
+    bucket-name: ${OSS_BUCKET_NAME:sky-project-my-img}
+    access-key-secret: ${OSS_ACCESS_KEY_SECRET:}
+  redis:
+    host: ${REDIS_HOST:localhost}
+    port: ${REDIS_PORT:6379}
+    password: ${REDIS_PASSWORD:123456}
+    database: ${REDIS_DATABASE:5}
+  wechat:
+    secret: ${WECHAT_SECRET:}
+    appid: ${WECHAT_APPID:}

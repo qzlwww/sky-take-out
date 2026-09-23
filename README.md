@@ -1,4 +1,4 @@
-# 苍穹外卖 (Sky Take-out)
+# 外卖点餐系统 (Sky Take-out)
 
 一个基于 **Spring Boot + MyBatis + Redis + MySQL + Vue** 的外卖订餐系统，包含**管理端**与**用户端**两套前端，实现从菜品管理、下单、支付到订单处理与数据统计的完整业务闭环。
 
